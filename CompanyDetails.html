@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Company form</title>
+ <style>
+    body {
+	color: white;
+	background: white;
+	font-family: bold;
+}
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	color: #969fa4;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.Company-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.Company-form h2 {
+	color: #636363;
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.Company-form h2:before, .Company-form h2:after {
+	
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.Company-form h2:before {
+	left: 0;
+}
+.Company-formh2:after {
+	right: 0;
+}
+.Company-form.hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.Company-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.Company-form.form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.Company-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.Company-form .row div:first-child {
+	padding-right: 10px;
+}
+.Company-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.Company-form a:hover {
+	text-decoration: none;
+}
+.Company-form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.Company-form a:hover {
+	text-decoration: underline;
+}  
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 20%;
+    height: 35px;
+}
+.btn-block{
+   border-radius: 24px;
+}
+</style>
+  </head>
+  <body>
+  	<data class="container">
+   <div class="Company-form">
+    <form action="#" >
+		<h2>Become A Partner</h2>
+        <div class="form-group">
+			<input type="text" class="form-control" name="Company-Name" placeholder="Company-Name" required="required">
+		</div>
+         <div class="form-group">
+			 <input type="text" class="form-control " name="ID number of the company" placeholder="ID Number Of The Company" required="required">
+		</div>
+		<div class="form-group">
+			 <input type="text" class="form-control" name="Name of company owner" placeholder="Name Of Company Owner" required="required">
+		</div>   
+		<div class="form-group"> 
+           <input type="text" class="form-control" id="inputAddress" placeholder="Address's Company" required="required">
+        </div>           	
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Company's E-Mail " required="required">
+        </div>        
+        <div class="form-group">
+        	<input type="number" class="form-control" name="Mobile No." placeholder="Phone No." required="required">
+        </div>
+        <div class="form-group">
+        	<input type="text" class="form-control" name="vehicles available" placeholder="Vehicles Available" required="required">
+        </div>
+		<div class="form-group">
+            <button type="submit" class="btn btn-lg btn-block" style="background-color:#d5bf79">Submit</button>
+        </div>
+    </form>
+</div>
+</data>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
